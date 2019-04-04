@@ -1,0 +1,64 @@
+(we don't have to do any of these, this is just me spitballing)
+
+(could be easy without real-world objects, but probably not as good in terms of
+haptics/presence)
+Education: Cooking class
+
+User(s) are in a kitchen environment, so a counter with stove,
+oven, pots&pans, other stuff. IRL we could maybe set up a table with
+pots&pans and have them be tracked. Give users a recipe and ingredients
+and basically have them make food (can time-skip for the oven or long
+stove cooking times). Maybe have multiple recipes they could choose from.
+Could save progress or results, maybe let them make their own recipes
+that get saved? (with restrictions)
+
+It obv would be neat to have actual food there with the table/pots&pans/
+whatever else, but not sure how possible that would be. Could be the finished
+product or something but idk how well that would work unless we bake
+a bunch of cakes or something
+
+-
+
+(could be tough, not sure)
+Training: Spacewalk / satellite repair
+
+User is an astronaut in an EVA chair-jetpack-toolbox(?) thing with
+little jets that they use to move in space --> could have the IRL
+user sit in an actual chair for some haptics. Idea for movement
+could be, use the left controller to control pitch/roll/yaw and
+right controller for actual movement --> right joystick could
+be strafe forward/backwards/left/right and A & B buttons strafe
+up/down. User could be required to replace or fix a part of a
+satellite - maybe have multiple possible tasks they could choose from,
+multiplayer aspect could be recording/saving progress, time, how
+good they did, maybe have multiple users/astronauts at once ?
+
+Movement could work by having the astronaut object(s) parented to the
+satellite, have the satellite be stationary and the astronaut's
+rigidbody doesn't use gravity, so they have to learn to control
+themselves in 0 gravity? Whole thing could just be floating in
+a space skybox.
+^^Can't tell if this would be easy or hard to work with
+
+-
+
+(would probably be absolutely horrible to try and make but I think it could be cool lol)
+Education: Particle Physics Simulator
+
+again, this would probably be actually terrible to make since it would
+involve legit particle physics so like particle mass, spin, charge, decay times,
+color charge, all that nonsense. So unless yall reeaalllyy want to do this,
+probably don't take it too seriously lol
+
+User(s) in some environment (could be pretty plain), avatars could be
+scientisty like, people in labcoats with crazy hair or something. There is
+(or they could pull up?) a big particle standard model diagram where they could
+select some elementary particle (like electron or something) and put it in the
+world, they can put multiple particles in the world and see how they interact
+with each other, so like if they put 2 electrons next to each other they'd
+fly away from each other, or they throw some quarks & gluons at each other and 
+see if they make protons/neutrons? Could have option to pause/play time, 
+time would be super slow, not realtime, we could just mention that.
+
+Could give users the ability to clear the world, save it, save information
+from whatever they did, stuff like that. Could also let them smash stuff together to see what happens.
