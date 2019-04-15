@@ -1,8 +1,103 @@
 Coooking idea:
 Omlette - easy level
+  frying pan
+  whisk
+  bowl
+  fridge
+  _____________________________________________________
+  eggs
+  salt n peppa (　^ (●●)－)＝☆
+  seasonings
+  milk
+  -----------------------------------------------------
+  chopped bacon
+  cheddar
+  spinach
+  diced tomatoes
+  
+  Steps:
+    1. Crack 2 eggs into the mixing bowl
+    2. Add milk, and break the yolks, and stir unitl an even consistency is reached
+    3. Add any seasonings, salt, peppa (▽-(00)-▽)♡ and stir
+    4. Pour mixure into a hot pan on Yellow heat (see note below)
+    5. Slowly add in prepared ingredients and allow to cook completely on one side
+    6. FLIP the pan, and allow the omlette to cook completely 
+    7. Fold and serve the omlette to Steve :)
+  
 Chicken Parm - medium level
-Cake - hard level 
+  freezer bags
+  meat mallot
+  bowl
+  bowl(1)
+  large skillet
+  baking dish
+  timer (for oven and stove)
+  ___________________________________________________________________
+  4 skinless, boneless chicken breast halves
+  salt n peppa (･ั(00)･ั)
+  2 eggs
+  1 cup bread crumbs
+  1/2 cup parmesan cheese
+  2 tbsp flour (in a bowl)
+  1 cup oil
+  ------------------------------------------------------------------- 
+  1/2 cup  tomato sauce
+  1/4 cup fre$h mozz^3
+  1/4 cup chopped fresh basil
+  1/2 cup grated provolone cheese
+  1/4 cup paremesan cheese
+  1 tbsp olive oil
+  
+  Steps:
+    1. Preheat oven to Orange (see misc not below)
+    2. Place chicken breasts in freezer bags and and pound with the mallot
+    3. Beat eggs in bowl
+    4. Mix bread crumbs and 1/2 cup parmesan cheese in bowl(1) and set aside
+    5. Sprinkle flour over the chicken breasts on both sides, coating completely
+    6. Dip the chicken breasts in the the beaten eggs
+    7. Dip the chicken breasts in the bread crumb mixture
+    8. Repeat for each chicken breast half, and set aside.
+    9. Heat 1 cup of oil in a learge skillet on 153 Orhange heat
+    10. Cook chicken for 2 minutes (2s on stove timer)
+    11. Place chicken on baking dish, top with tomato sauce, fresh mozz, basil, 
+        provolone, parmesan and drizzle with olive oil
+    12. Bake in preheated oven for 20 minutes (20s)
+    13. Plate, and serve to Steve! :)
 
+Cake - hard level 
+  stand mixer + bowl
+  wooden spoon
+  cake pan
+  baking spray
+  serrated knife
+  timer (for mixer and oven)
+  __________________________________________________________________________________________
+  1/2 cup tbsp granulated sugar
+  4 eggs
+  salt
+  lemon zest 
+  1 cup + 1tbsp flour
+  -----------------------------------------------------------------------------------------
+  heavy cream
+  powdered sugar
+  vanilla extract
+  
+  Steps:
+    1. Preheat oven to Yellow
+    2. Spray and flour cake pan
+    3. Put eggs sugar, salt, and lemon zest in stand mixer
+    4. Mix for 15 minutes (15s)
+    5. Add flour to mixture and mix with a wooden spoon
+    6. Pour batter into prepared cake pan and bake for 40 minutes (40s)
+    7. While cake is cooking, mix heavy whipping cream, powdered sugar, and vanilla for 10 minutes (10s)
+    8. Transfer whipped cream to piping bag
+    9. Take cake out of oven and let cool for 10 minutes (10s)
+    10. Cut cake in half with serrated knife
+    11. Top first half with enough whipped cream to cover it completely
+    12. Stack the the second half on top and repeat 
+    13. Cover the sides with whipped cream
+    14. Garnish with extra lemon zest and serve to Steve! :D
+    
 Controls: 
 user will use joystick for movement, trigger for grabbing objects, hard code controls for each one.
 Time will speed up for longer cooking times
@@ -10,6 +105,7 @@ Ingredients will load once the user selects a level.
 
 Haptics:
 Controller vibration when cutting, mixing, etc.
+Sizzle sound effects <3
 
 Menu:
 Menu board will be in foreground with recipes (Level choosing and basic menu options)
@@ -20,7 +116,24 @@ Leaderboard system for social aspect
 Personal Touches:
 Gordon Ramsey and Steve
 
+User error handling:
+If the user makes an incorrect action, it will be intercepted by Gordon Ramsey(???)
+Maybe a pop up telling them to look back at the recipe and try again.
+To make the error message go away,  the user must interact with the trash can!
+
+Misc Notes:
+* Make a heat light that signifies which temperature/heat setting the cooking elements are @.
+  Green: Low
+  Yellow: Medium
+  153 Orhange: Medium High
+  Joo C Red: High
+  
+* Problem: the recipes are long
+  Solution: break up the recipe into text boxes
+  Link the text boxes together via forward and backward buttons that the user can select with the pointer feature 
+
 Ashley: Modeling and actual art
 Kianna: Cake and Chicken Parm
 Ben: Cake and Chicken Parm
 Matt: Omlette 
+ /ᐠ｡ꞈ｡ᐟ✿\
