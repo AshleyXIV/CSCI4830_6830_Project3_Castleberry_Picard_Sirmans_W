@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+1. Cooking Challenge
+
+2. Users can learn to cook different recipes of varying difficulty in a virtual kitchen without having to actually buy the ingredients! They can then use their new skills to cook the dishes in real life!
+
+=======
+1. Cooking Challenge
+
+2. Users can learn to cook different recipes of varying difficulty in a virtual kitchen without having to actually buy the ingredients! They can then use their new skills to cook the dishes in real life!
+
+>>>>>>> 4feccd2a90bfe58b5e8e10f721c8b9716432bdf8
+3. Oculus Rift, Laptop
