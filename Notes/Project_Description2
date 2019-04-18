@@ -1,0 +1,26 @@
+Coooking idea:
+Omlette - easy level
+Chicken Parm - medium level
+Cake - hard level 
+
+Controls: 
+user will use joystick for movement, trigger for grabbing objects, hard code controls for each one.
+Time will speed up for longer cooking times
+Ingredients will load once the user selects a level.
+
+Haptics:
+Controller vibration when cutting, mixing, etc.
+
+Menu:
+Menu board will be in foreground with recipes (Level choosing and basic menu options)
+
+Social aspect:
+Leaderboard system for social aspect
+
+Personal Touches:
+Gordon Ramsey and Steve
+
+Ashley: Modeling and actual art
+Kianna: Cake and Chicken Parm
+Ben: Cake and Chicken Parm
+Matt: Omlette 

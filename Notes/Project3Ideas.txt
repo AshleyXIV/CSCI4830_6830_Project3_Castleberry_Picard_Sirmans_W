@@ -17,7 +17,11 @@ whatever else, but not sure how possible that would be. Could be the finished
 product or something but idk how well that would work unless we bake
 a bunch of cakes or something
 
--
+-Kianna + Ben
+ // I like the way this sounds! It sounds fun, super cute, and we could use
+ // the joystic motion script we used for Project 2. I love cakes. We 
+ // should bake cakes <3
+
 
 (could be tough, not sure)
 Training: Spacewalk / satellite repair
@@ -40,7 +44,10 @@ themselves in 0 gravity? Whole thing could just be floating in
 a space skybox.
 ^^Can't tell if this would be easy or hard to work with
 
--
+-Kianna + Ben
+// This sounds super interesting but a little ambitious! I like the 
+// control ideas but they might require a lot of debugging 
+
 
 (would probably be absolutely horrible to try and make but I think it could be cool lol)
 Education: Particle Physics Simulator
@@ -62,3 +69,24 @@ time would be super slow, not realtime, we could just mention that.
 
 Could give users the ability to clear the world, save it, save information
 from whatever they did, stuff like that. Could also let them smash stuff together to see what happens.
+
+-Kianna + Ben
+// It sounds like a cool idea, but I agree that it moght be too much. 
+
+
+(>'_')>--o_______|_____'__o--<('_'<) Kirby Pong
+
+
+Here's another idea that might work!
+
+The user will interact with a number of the brain's regions in order to better understand 
+the brain's anatomy and its various functions. They will read information in different halls,
+leading to rooms dedicated to each of the brains regions where the user can interact with different
+images, panels, pictures, scans, ect. After learning everything, the user will be given a short but
+informative quiz, and their results will be stored and displayed on a leaderboard. If the user 
+makes it on the leaderboard, there's a MINIGAME. It could be anything really and just make it fun 
+like a reward for doing well on the quiz. 
+We could "market" this towards psychology students as a fun, interactive way to get to know the brain.  
+If you guys aren't super into the brain or anything, don't worry! I (Kianna) can take care of the 
+infomation in the halls and stuff and I can do the quiz too!
+
