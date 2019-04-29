@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pop_Drop_Loc_1
+  - Omlet_Food_1
+  - Omlet_Food_2
   layers:
   - Default
   - TransparentFX

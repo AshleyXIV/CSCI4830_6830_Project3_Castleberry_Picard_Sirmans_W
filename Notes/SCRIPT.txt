@@ -1,0 +1,14 @@
+Our virtual guide allows chef apprentices to practice their craft without the mess!
+The interactive course features three levels with varying complexity,
+including: Omelet(easy), Chicken Parm(medium), and Cake(challenging).
+Users must combine the correct ingredients and monitor both cook times
+and heat settings to pass each level. Additionally, chefs can compete
+ with their competitors on the leaderboards to encourage better speed and accuracy:
+ an important skill in the culinary world. Haptics such as control vibration and realistic
+ sound effects help enhance the virtual experience for the chef, making them feel
+ like they really are on the chopping block. Players will navigate with the
+ walking and use the Oculus VR headset to look around. To interact with objects, the player can use
+ the triggers to pick up or drop an object and the buttons to perform various tasks.
+ This is the absolute best cooking simulation since Cooking Mama for the Nintendo DS
+ Test your skills and see if you can please Steve! He'll be judging you with
+ powerful scrutiny! 
