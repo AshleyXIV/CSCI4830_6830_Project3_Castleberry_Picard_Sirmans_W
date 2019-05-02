@@ -1,0 +1,39 @@
+--IDEA--~
+
+To swap models we have a separate "island" that has all the stages ready
+and when conditions were satisfied, the models would 'swap' locations immediately
+to allow the player to continue cooking
+
+SPECIFICS:
+-Egg cracking
+-Object location relativity
+
+
+
+Thoughts on how to progress:
+
+-We need to link all the objects together in sequential order for each kitchen
+-We need to set triggers for the loops to update or "wake up"
+-How to attach script to the controls and the objects
+-Troubleshoot how to Troubleshoot
+
+waypoint.transform.position = new Vector3(player.transform.x , player.transform.y + 20 , player.transform.z + 20);
+
+so hold on, two public fields
+theyre always going to the hand and theyre always goin to the pop drop lock one at the end. What it needs to do
+it needs to hold an object and need to know when it has to swap for that object
+
+
+Omelet models:
+-Need to be attached to the containers that they're in for some reason
+ The reason is: *cough* *cough* *cough* why aren't you writing this *confused look*
+ *giggling/laughing* Hold on... *more laughing* Do you want a jelly bean?? *while laughing*
+ Okay. The reason is: If we wanted to just change the object *deep thought* wait scratch that
+ it would be like it would be hard I feel like it would be hard it's just so hard to thing when you're typing wha tI say
+ It would be hard to attached multiple objects to the same bowl or frying pand, it would just be
+ wasier to jhust have 2 frying pans, wait would it be though?? Because we're just swapping locations
+ Because if the user usees the bowl we have to have some sort of location tag on the bowl??
+ 
+ Alright lets continue... Okay, so here is an idea... we use the same bowl and just have a tag
+ of the location in the center of the bowl! A script will then translate that egg mixture the new
+ egg mixture to the location tag of the bowl and we just make sure they got the same radius!
