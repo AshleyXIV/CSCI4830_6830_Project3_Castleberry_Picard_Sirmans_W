@@ -7,6 +7,8 @@ TagManager:
   - Pop_Drop_Loc_1
   - Omlet_Food_1
   - Omlet_Food_2
+  - eggs_1
+  - yolks_1
   layers:
   - Default
   - TransparentFX
