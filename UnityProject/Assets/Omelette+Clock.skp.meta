@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 1d55ca1ca66b6944c934c5814ac9b418
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f0000003000000031000000320000003300000034000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 7fe3aee59234b154d300e6b9c9c41e9a
+  longitude: -47.917
+  latitude: -15.783
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.7716327, y: 0.7133261, z: 0.10542654}
+      lookAt: {x: 0.33748928, y: -0.008862895, z: 0.3825471}
+      up: {x: -0.6862676, y: 0.5806412, z: 0.43805543}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 12#4
+    100002: 3#1
+    100004: 6
+    100006: 9
+    100008: CABO
+    100010: CORPO
+    100012: FRIGIDEIRA
+    100014: garfo
+    100016: Group 2
+    100018: Group 3
+    100020: Group 40
+    100022: Group 42
+    100024: Group 45
+    100026: Group 47
+    100028: Group 49
+    100030: HORAS
+    100032: //RootNode
+    100034: PONTEIRO
+    100036: PONTEIRO 1
+    100038: PONTEIRO 10
+    100040: PONTEIRO 11
+    100042: PONTEIRO 2
+    100044: PONTEIRO 3
+    100046: PONTEIRO 4
+    100048: PONTEIRO 5
+    100050: PONTEIRO 6
+    100052: PONTEIRO 7
+    100054: PONTEIRO 8
+    100056: PONTEIRO 9
+    400000: 12#4
+    400002: 3#1
+    400004: 6
+    400006: 9
+    400008: CABO
+    400010: CORPO
+    400012: FRIGIDEIRA
+    400014: garfo
+    400016: Group 2
+    400018: Group 3
+    400020: Group 40
+    400022: Group 42
+    400024: Group 45
+    400026: Group 47
+    400028: Group 49
+    400030: HORAS
+    400032: //RootNode
+    400034: PONTEIRO
+    400036: PONTEIRO 1
+    400038: PONTEIRO 10
+    400040: PONTEIRO 11
+    400042: PONTEIRO 2
+    400044: PONTEIRO 3
+    400046: PONTEIRO 4
+    400048: PONTEIRO 5
+    400050: PONTEIRO 6
+    400052: PONTEIRO 7
+    400054: PONTEIRO 8
+    400056: PONTEIRO 9
+    2100000: _defaultMat
+    2100002: CALARA
+    2100004: GEMA
+    2100006: TALHERES
+    2100008: NUMEROS
+    2100010: MATERIAL
+    2100012: CORPO FRIGIDEIRA
+    2100014: INTERIOR FRIGIDEIRA
+    2100016: METAL
+    2300000: 12#4
+    2300002: 3#1
+    2300004: 6
+    2300006: 9
+    2300008: CORPO
+    2300010: garfo
+    2300012: Group 3
+    2300014: Group 40
+    2300016: Group 42
+    2300018: Group 45
+    2300020: Group 47
+    2300022: Group 49
+    2300024: PONTEIRO
+    2300026: PONTEIRO 1
+    2300028: PONTEIRO 10
+    2300030: PONTEIRO 11
+    2300032: PONTEIRO 2
+    2300034: PONTEIRO 3
+    2300036: PONTEIRO 4
+    2300038: PONTEIRO 5
+    2300040: PONTEIRO 6
+    2300042: PONTEIRO 7
+    2300044: PONTEIRO 8
+    2300046: PONTEIRO 9
+    3300000: 12#4
+    3300002: 3#1
+    3300004: 6
+    3300006: 9
+    3300008: CORPO
+    3300010: garfo
+    3300012: Group 3
+    3300014: Group 40
+    3300016: Group 42
+    3300018: Group 45
+    3300020: Group 47
+    3300022: Group 49
+    3300024: PONTEIRO
+    3300026: PONTEIRO 1
+    3300028: PONTEIRO 10
+    3300030: PONTEIRO 11
+    3300032: PONTEIRO 2
+    3300034: PONTEIRO 3
+    3300036: PONTEIRO 4
+    3300038: PONTEIRO 5
+    3300040: PONTEIRO 6
+    3300042: PONTEIRO 7
+    3300044: PONTEIRO 8
+    3300046: PONTEIRO 9
+    4300000: Mesh Group 3
+    4300002: Mesh PONTEIRO
+    4300004: Mesh 9
+    4300006: Mesh 6
+    4300008: Mesh 12#4
+    4300010: Mesh 3#1
+    4300012: Mesh CORPO
+    4300014: Mesh Group 40
+    4300016: Mesh Group 42
+    4300018: Mesh Group 45
+    4300020: Mesh Group 47
+    4300022: Mesh Group 49
+    4300024: Mesh garfo
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
