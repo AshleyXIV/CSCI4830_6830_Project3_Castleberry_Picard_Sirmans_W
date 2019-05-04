@@ -37,3 +37,25 @@ Omelet models:
  Alright lets continue... Okay, so here is an idea... we use the same bowl and just have a tag
  of the location in the center of the bowl! A script will then translate that egg mixture the new
  egg mixture to the location tag of the bowl and we just make sure they got the same radius!
+ 
+ 
+>Matt has entered the chat
+ok, so yeah the location tag in the bowl sounds like a good idea, but how should we go about implementing it? Have the center of
+the bowl be the bowl object's 0,0,0 point, have some kind of attatched script that aligns it, or a child object of the bowl that 
+the egg mix are then children of? Either sounds fine to me and about the same amount of hard to actually make so
+
+we could also do the same thing with the frying pan, yeah? Seems like it -should- work, and I don't think it'd be too tough 
+(famous last words) to add some sick food flipping pan action (optional, maybe save for 1.1 release or paid DLC).
+
+I'll make some cracked eggs models and make them crack when they hit something - I may be able to find a way to animate the yolk 
+falling from the cracked egg into the bowl then quickly swap the yolk model with the model for the basic egg mix, I *kinda* 
+figured out how animations in unity work the other day when I added one to a model of the Night King that made him fortnite 
+dance on the iron throne, so I think I  can figure egg stuff out if y'all would be into that, pouring milk too!
+
+Here's a list of the models I'll make in the next day or two:
+-cracked eggos
+-separate models for:
+ --diced tomatos
+ --bacon bits
+ --spinach
+anything else I should add? Could make Steve dab on you if you burn the food 🤔
