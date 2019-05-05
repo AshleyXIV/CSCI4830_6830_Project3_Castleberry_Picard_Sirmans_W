@@ -8,6 +8,9 @@ public class Egg_Detection : MonoBehaviour
     public GameObject egg1;
     public GameObject egg2;
     public GameObject egg3;
+    public GameObject crackedEgg1;
+    public GameObject crackedEgg2;
+    public GameObject crackedEgg3;
     public GameObject rawEggs;
     
     int counter = 0;
@@ -35,16 +38,23 @@ public class Egg_Detection : MonoBehaviour
         if (collision.gameObject.name == "Egg_1")
         {
             counter++;
+            crackedEgg1.transform.position = egg1.transform.position;
             Destroy(egg1);
-        }else if(collision.gameObject.name == "Egg_2")
+            crackedEgg1.SetActive(true);
+        }
+        else if(collision.gameObject.name == "Egg_2")
         {
             counter++;
+            crackedEgg2.transform.position = egg2.transform.position;
             Destroy(egg2);
+            crackedEgg2.SetActive(true);
         }
         else if (collision.gameObject.name == "Egg_3")
         {
             counter++;
+            crackedEgg3.transform.position = egg3.transform.position;
             Destroy(egg3);
+            crackedEgg3.SetActive(true);
         }
     }
 }
