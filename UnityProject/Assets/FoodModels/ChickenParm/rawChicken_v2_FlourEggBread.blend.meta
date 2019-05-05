@@ -3,6 +3,26 @@ guid: 923217cc162605f4b8fbca017871a136
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: flour
+    100002: flour_001
+    100004: //RootNode
+    400000: flour
+    400002: flour_001
+    400004: //RootNode
+    2100000: Material_001
+    2100002: Material_004
+    2100004: Material_003
+    2300000: flour
+    2300002: flour_001
+    2300004: //RootNode
+    3300000: flour
+    3300002: flour_001
+    3300004: //RootNode
+    4300000: Sphere
+    4300002: flour_001
+    4300004: flour
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +77,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

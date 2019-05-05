@@ -3,6 +3,38 @@ guid: 4706f41204a9828479b58458d948ef74
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: eggs
+    100002: //RootNode
+    100004: saltnpepper
+    100006: spices1
+    100008: spices2
+    400000: eggs
+    400002: //RootNode
+    400004: saltnpepper
+    400006: spices1
+    400008: spices2
+    2100000: Material_001
+    2100002: Material_006
+    2100004: Material_005
+    2100006: Material_004
+    2100008: Material_003
+    2300000: eggs
+    2300002: //RootNode
+    2300004: saltnpepper
+    2300006: spices1
+    2300008: spices2
+    3300000: eggs
+    3300002: //RootNode
+    3300004: saltnpepper
+    3300006: spices1
+    3300008: spices2
+    4300000: egg
+    4300002: saltnpepper
+    4300004: spices2
+    4300006: spices1
+    4300008: eggs
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +89,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
