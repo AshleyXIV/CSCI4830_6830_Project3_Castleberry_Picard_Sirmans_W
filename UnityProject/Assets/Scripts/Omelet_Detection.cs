@@ -6,7 +6,7 @@ public class Omelet_Detection : MonoBehaviour
 {
 
     public GameObject seasonedScram;
-    public GameObject megaBowl;
+    public GameObject waste;
     public GameObject uncookedOmelet;
 
     bool pouredMixture = false;
@@ -16,7 +16,7 @@ public class Omelet_Detection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       waste = GameObject.FindGameObjectWithTag("Pop_Drop_Loc_1");
     }
 
     // Update is called once per frame
@@ -30,9 +30,9 @@ public class Omelet_Detection : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "megaBowl")
+        if (collision.gameObject.name == "MegaBowl_Omelette")
         {
-            Destroy(seasonedScram);
+            seasonedScram.transform.position = waste.transform.position;
             pouredMixture = true;
         }
     }

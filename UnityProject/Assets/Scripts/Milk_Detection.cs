@@ -8,23 +8,34 @@ public class Milk_Detection : MonoBehaviour
     public GameObject milk;
     public GameObject scram;
     public GameObject rawEggs;
+    GameObject waste;
 
+    int whiskCounter = 0;
     bool milkIn = false;
-
+    bool stirredNMilky = false;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        waste = GameObject.FindGameObjectWithTag("Pop_Drop_Loc_1");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (milkIn)
+        if (whiskCounter == 20 && milkIn)
+            {
+                stirredNMilky = true;
+                Debug.Log("Stirred N Milky");
+            }
+        if (stirredNMilky)
         {
             scram.SetActive(true);
+            rawEggs.transform.position = waste.transform.position;
+
+
+           
         }
     }
 
@@ -32,9 +43,18 @@ public class Milk_Detection : MonoBehaviour
     {
         if (collision.gameObject.name == "Malk")
         {
-            Destroy(milk);
-            Destroy(rawEggs);
+            milk.transform.position = waste.transform.position;
+            
             milkIn = true;
+            Debug.Log(" Milky");
+
         }
+        if (collision.gameObject.name == "whisk_omlet")
+        {
+            whiskCounter++;
+            Debug.Log("Counter Incrementing");
+            
+        }
+
     }
-    }
+}

@@ -7,7 +7,7 @@ public class Seasoning_Detection : MonoBehaviour
 
     public GameObject salt;
     public GameObject pepper;
-
+    public GameObject waste;
     public GameObject seasonedScram;
     public GameObject scram;
  
@@ -20,7 +20,7 @@ public class Seasoning_Detection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        waste = GameObject.FindGameObjectWithTag("Pop_Drop_Loc_1");
     }
 
     // Update is called once per frame
@@ -29,7 +29,7 @@ public class Seasoning_Detection : MonoBehaviour
         if (saltIn && pepperIn)
         {
             seasonedScram.SetActive(true);
-            Destroy(scram);
+            scram.transform.position = waste.transform.position;
         }
     }
 
@@ -37,11 +37,11 @@ public class Seasoning_Detection : MonoBehaviour
     {
         if (collision.gameObject.name == "salt_omlet")
         {
-            Destroy(salt);
+            salt.transform.position = waste.transform.position;
             saltIn = true;
         }
         if (collision.gameObject.name == "pepper_omlet") {
-            Destroy(pepper);
+            pepper.transform.position = waste.transform.position;
             pepperIn = true;
         }
 
