@@ -22,7 +22,6 @@ public class Egg_Detection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Counter = " + counter);
         if(counter == 3)
         {
             rawEggs.SetActive(true);

@@ -24,7 +24,7 @@ public class Milk_Detection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (whiskCounter == 20 && milkIn)
+        if (whiskCounter == 5 && milkIn)
             {
                 stirredNMilky = true;
                 Debug.Log("Stirred N Milky");
@@ -34,8 +34,6 @@ public class Milk_Detection : MonoBehaviour
             scram.SetActive(true);
             rawEggs.transform.position = waste.transform.position;
 
-
-           
         }
     }
 
@@ -52,7 +50,7 @@ public class Milk_Detection : MonoBehaviour
         if (collision.gameObject.name == "whisk_omlet")
         {
             whiskCounter++;
-            Debug.Log("Counter Incrementing");
+            Debug.Log("Counter Incrementing = " + whiskCounter);
             
         }
 
