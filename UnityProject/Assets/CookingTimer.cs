@@ -7,6 +7,8 @@ public class CookingTimer : MonoBehaviour
     public GameObject waste;
     public GameObject finishedOmelet;
     public GameObject uncookedOmelet;
+    public AudioClip sizzle;
+    public AudioSource source;
 
     bool startCount = false;
 
@@ -16,6 +18,7 @@ public class CookingTimer : MonoBehaviour
     void Start()
     {
         waste = GameObject.FindGameObjectWithTag("Pop_Drop_Loc_1");
+        source.clip = sizzle;
     }
 
     
@@ -25,7 +28,7 @@ public class CookingTimer : MonoBehaviour
         if (startCount)
         {           
             timeLeft -= Time.deltaTime;
-  
+            source.Play();
             if (timeLeft <= 0)
             {
                 finishedOmelet.SetActive(true);

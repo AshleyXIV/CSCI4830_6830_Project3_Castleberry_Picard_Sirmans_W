@@ -9,13 +9,28 @@ public class LoadLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        loadlevel("chickenParmLevel");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown("["))
+        {
+            SceneManager.LoadScene("chickenParmLevel");
+        }
+        if (Input.GetKeyDown("]"))
+        {
+            SceneManager.LoadScene("omeletteLevel");
+        }
+        if (Input.GetKeyDown(";"))
+        {
+            SceneManager.LoadScene("chickenParmLevel");
+        }
+        if (Input.GetKeyDown("/"))
+        {
+            SceneManager.LoadScene("LeaderboardFix");
+        }
     }
 
     public void loadlevel(string level)

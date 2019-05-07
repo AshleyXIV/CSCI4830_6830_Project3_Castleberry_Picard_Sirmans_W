@@ -27,6 +27,9 @@ public class OVRGrabber : MonoBehaviour
     public float grabBegin = 0.55f;
     public float grabEnd = 0.35f;
 
+    //Haptics AudioClip 
+    public AudioClip hapticAudioClip;
+
     // Demonstrates parenting the held object to the hand's transform when grabbed.
     // When false, the grabbed object is moved every FixedUpdate using MovePosition.
     // Note that MovePosition is required for proper physics simulation. If you set this to true, you can
@@ -169,6 +172,16 @@ public class OVRGrabber : MonoBehaviour
         int refCount = 0;
         m_grabCandidates.TryGetValue(grabbable, out refCount);
         m_grabCandidates[grabbable] = refCount + 1;
+
+        OVRHapticsClip hapticsClip = new OVRHapticsClip(hapticAudioClip);
+        if(m_controller == OVRInput.Controller.LTouch)
+        {
+            OVRHaptics.LeftChannel.Preempt(hapticsClip);
+        }else
+        {
+            OVRHaptics.RightChannel.Preempt(hapticsClip);
+        }
+
     }
 
     void OnTriggerExit(Collider otherCollider)
