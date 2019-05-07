@@ -27,7 +27,6 @@ public class Milk_Detection : MonoBehaviour
         if (whiskCounter == 5 && milkIn)
             {
                 stirredNMilky = true;
-                Debug.Log("Stirred N Milky");
             }
         if (stirredNMilky)
         {
@@ -44,13 +43,11 @@ public class Milk_Detection : MonoBehaviour
             milk.transform.position = waste.transform.position;
             
             milkIn = true;
-            Debug.Log(" Milky");
 
         }
         if (collision.gameObject.name == "whisk_omlet")
         {
             whiskCounter++;
-            Debug.Log("Counter Incrementing = " + whiskCounter);
             
         }
 
