@@ -31,6 +31,10 @@ public class LoadLevel : MonoBehaviour
         {
             SceneManager.LoadScene("LeaderboardFix");
         }
+        if (Input.GetKeyDown("-"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     public void loadlevel(string level)
