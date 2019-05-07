@@ -33,7 +33,32 @@ SketchUpImporter:
     2300000: basket 1
     3300000: basket 1
     4300000: Mesh basket
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: f8bd8a5c425bbcc499aed03d4311c53d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basket image 2
+    second: {fileID: 2100000, guid: 6e9af8fd78cd3b94c8a80958875e7a78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basket side
+    second: {fileID: 2100000, guid: 2d94550ac07bf884fbd6da1e05eb2cef, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: basket image 2
+    second: {fileID: 2800000, guid: 91b3770883b5869458f42ce7c0d9fed4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: basket side
+    second: {fileID: 2800000, guid: 7178f70ac5eb10747b50879c7b7c1360, type: 3}
   materials:
     importMaterials: 1
     materialName: 2
