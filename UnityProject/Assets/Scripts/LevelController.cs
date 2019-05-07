@@ -47,4 +47,12 @@ public class LevelController : MonoBehaviour
 
         //PlayerPrefs.SetString("level2", level);
     }
+
+    public void buttonClickedLeaderBoard()
+    {
+        SceneManager.LoadScene(3, LoadSceneMode.Single);
+        string level = "Level: Leaderboard";
+        Debug.Log(level);
+    }
+    
 }
