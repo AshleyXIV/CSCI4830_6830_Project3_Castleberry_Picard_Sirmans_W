@@ -2651,8 +2651,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7cce00a542f7a0547b3f64ecd56608f2, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.202
-  m_Pitch: 1.66
+  m_Volume: 0.153
+  m_Pitch: 2.42
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -4148,8 +4148,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: eab4735247c19684e9c882d3a0ee409c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.159
-  m_Pitch: -0.64
+  m_Volume: 0.214
+  m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -4157,7 +4157,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 455.35
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5758,8 +5758,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7cce00a542f7a0547b3f64ecd56608f2, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.202
-  m_Pitch: 1.66
+  m_Volume: 0.135
+  m_Pitch: 2.16
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -6898,8 +6898,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7cce00a542f7a0547b3f64ecd56608f2, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.202
-  m_Pitch: 1.66
+  m_Volume: 0.123
+  m_Pitch: 2.38
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -7083,6 +7083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grabBegin: 0.55
   grabEnd: 0.35
+  hapticAudioClip: {fileID: 8300000, guid: 355c05c2f4e1d8d4b94df6bc9c4e0b25, type: 3}
   m_parentHeldObject: 0
   m_gripTransform: {fileID: 1848329122}
   m_grabVolumes:
@@ -7132,6 +7133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grabBegin: 0.55
   grabEnd: 0.35
+  hapticAudioClip: {fileID: 8300000, guid: 355c05c2f4e1d8d4b94df6bc9c4e0b25, type: 3}
   m_parentHeldObject: 0
   m_gripTransform: {fileID: 1848329124}
   m_grabVolumes:
@@ -7775,8 +7777,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7cce00a542f7a0547b3f64ecd56608f2, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.202
-  m_Pitch: 1.66
+  m_Volume: 0.129
+  m_Pitch: 2.16
   Loop: 0
   Mute: 0
   Spatialize: 0

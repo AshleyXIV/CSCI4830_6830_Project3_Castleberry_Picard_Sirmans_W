@@ -35,15 +35,18 @@ public class Egg_Detection : MonoBehaviour
         if (collision.gameObject.name == "Egg_1")
         {
             counter++;
+            egg1.GetComponent<AudioSource>().Play();
             egg1.transform.position = waste.transform.position;
         }else if(collision.gameObject.name == "Egg_2")
         {
             counter++;
+            egg2.GetComponent<AudioSource>().Play();
             egg2.transform.position = waste.transform.position;
         }
         else if (collision.gameObject.name == "Egg_3")
         {
             counter++;
+            egg3.GetComponent<AudioSource>().Play();
             egg3.transform.position = waste.transform.position;
         }
     }
