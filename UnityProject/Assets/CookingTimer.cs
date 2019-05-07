@@ -23,9 +23,10 @@ public class CookingTimer : MonoBehaviour
     void Update()
     {
         if (startCount)
-        {
+        {           
             timeLeft -= Time.deltaTime;
-            if (timeLeft < 0)
+  
+            if (timeLeft <= 0)
             {
                 finishedOmelet.SetActive(true);
                 uncookedOmelet.transform.position = waste.transform.position;
@@ -35,9 +36,11 @@ public class CookingTimer : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "omletteFullCooked_ingredients")
+        if (collision.gameObject.name == "MegaBowl_Omelette")
         {
+            Debug.Log("Omelette should be cooking");
             startCount = true;
+            Debug.Log("count started");
         }
     }
 }
