@@ -25,7 +25,7 @@ public class LoadLevel : MonoBehaviour
         }
         if (Input.GetKeyDown(";"))
         {
-            SceneManager.LoadScene("chickenParmLevel");
+            SceneManager.LoadScene("cakeLevel");
         }
         if (Input.GetKeyDown("/"))
         {

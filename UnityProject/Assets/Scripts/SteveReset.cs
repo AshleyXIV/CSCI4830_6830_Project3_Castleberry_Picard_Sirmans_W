@@ -7,11 +7,12 @@ public class SteveReset : MonoBehaviour
 {
     public GameObject steve;
     public GameObject omelette;
+    public GameObject waste;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        waste = GameObject.FindGameObjectWithTag("Pop_Drop_Loc_1");
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class SteveReset : MonoBehaviour
     {
         if (collision.gameObject.name == "finishedOmelet")
         {
+            omelette.transform.position = waste.transform.position;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         }
